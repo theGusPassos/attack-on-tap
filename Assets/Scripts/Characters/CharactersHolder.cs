@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 
 namespace AttackOnTap
 {
@@ -7,10 +8,19 @@ namespace AttackOnTap
         public CharacterInfo[] characters;
     }
 
-    [System.Serializable]
+    [Serializable]
     public struct CharacterInfo
     {
-        public string name;
-        public GameObject obj;
+        public string       name;
+        public GameObject   obj;
+        public AttackIcons  attackIcons;
+    }
+
+    [Serializable]
+    public struct AttackIcons
+    {
+        public Sprite basicAttack;
+        public Sprite rangedAttack;
+        public Sprite specialAttack;
     }
 }
