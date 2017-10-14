@@ -12,6 +12,8 @@ namespace AttackOnTap.Camera
                 created = true;
             else
                 Destroy(gameObject);
+            
+            DontDestroyOnLoad(gameObject);
         }
     }
 }
