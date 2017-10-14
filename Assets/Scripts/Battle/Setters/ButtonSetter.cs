@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace AttackOnTap.Battle.Setters
 {
-    public class SetButtons : MonoBehaviour
+    public class ButtonSetter : MonoBehaviour
     {
         public GameObject[] buttonsObj;
 
@@ -27,8 +27,6 @@ namespace AttackOnTap.Battle.Setters
 
         private void Start()
         {
-            CharactersManager.Instance.InstantiateCharacter();
-
             if (!string.IsNullOrEmpty(CharactersManager.mainCharacter.name))
             {
                 SetButtonsForChar(CharactersManager.mainCharacter);
@@ -39,7 +37,7 @@ namespace AttackOnTap.Battle.Setters
             }
         }
 
-        public void SetButtonsForChar(CharacterInfo characterInfo)
+        private void SetButtonsForChar(CharacterInfo characterInfo)
         {
             SetButtonsMethods(characterInfo.obj.GetComponent<IPlayableCharacter>());
             SetButtonSprites(characterInfo.attackIcons);

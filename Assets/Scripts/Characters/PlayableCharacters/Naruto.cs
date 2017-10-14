@@ -2,8 +2,13 @@
 
 namespace AttackOnTap.Characters.PlayableCharacters
 {
-    public class Naruto : MonoBehaviour, IPlayableCharacter
+    public class Naruto : MonoBehaviour, IPlayableCharacter, ICharacter
     {
+        public void Die()
+        {
+            print("sasukeeeee");
+        }
+
         public void BasicAttack()
         {
             print("Naruto basic attack");

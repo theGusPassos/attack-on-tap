@@ -15,6 +15,7 @@ namespace AttackOnTap.Managers
             if (Instance == null)
             {
                 Instance = this;
+                InstantiateCharacter();
                 DontDestroyOnLoad(gameObject);
             }
             else

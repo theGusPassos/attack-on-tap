@@ -13,6 +13,7 @@ namespace AttackOnTap
     {
         public string       name;
         public GameObject   obj;
+        public Sprite       face;
         public AttackIcons  attackIcons;
     }
 
