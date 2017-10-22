@@ -57,9 +57,9 @@ namespace AttackOnTap.Battle
             if (healthBar == null)
             {
                 healthBar = Instantiate(healthBarPrefab, transform).GetComponent<HealthBar>();
+                healthBar.transform.localPosition = new Vector3(0, 1, transform.position.z);
                 healthBar.name = "HealthBar";
                 healthBar.Initialize(maxHealthPoints);
-                healthBar.transform.position = new Vector3(0, 1, 0);
             }
         }
 

@@ -12,17 +12,17 @@ namespace AttackOnTap.Managers
         public Transform enemySpawn;
 
         private StagePhase phase;
-        private float timeToStart;
 
-        public int startAt;
-        private int currentStage;
+        public float    timeToStartRound;
+        public int      currentStageStartAt;
+        private int     currentStage;
 
         private float timer = 0;
         private float nextMinionTime;
 
         private void Start()
         {
-            currentStage = startAt;
+            currentStage = currentStageStartAt;
             stage = stages[currentStage];
 
             nextMinionTime = 0;
@@ -51,7 +51,10 @@ namespace AttackOnTap.Managers
 
         private void StartingPhase()
         {
-            // do something in a text script right here
+            if (timer > timeToStartRound)
+            {
+                phase = StagePhase.SPAWNING;
+            }
         }
 
         private void SpawningPhase()

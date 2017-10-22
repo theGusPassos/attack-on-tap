@@ -29,7 +29,7 @@ namespace AttackOnTap.Managers
             Transform characterPos = GameObject.Find("Main Character Pos").transform;
 
             mainCharacter = selectedCharacter;
-            mainCharacter.obj = Instantiate(mainCharacter.obj, characterPos.transform.position, Quaternion.identity);
+            mainCharacter.obj = Instantiate(mainCharacter.obj, characterPos.position, Quaternion.identity);
 
             mainCharacter.obj.name = mainCharacter.name;
         }

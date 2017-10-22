@@ -32,6 +32,9 @@ namespace AttackOnTap.Battle
 
         private void Update()
         {
+            if (Input.GetKeyDown(KeyCode.B))
+                SetValueToGo(barSlider.value - 10);
+
             if (valueChanged)
             {
                 barSlider.value = Mathf.Lerp(barSlider.value, valueToGo, 0.1f);

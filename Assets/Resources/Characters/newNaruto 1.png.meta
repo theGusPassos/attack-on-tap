@@ -1,0 +1,1180 @@
+fileFormatVersion: 2
+guid: 8814bc89b02a44f43911001e5fe4fdca
+timeCreated: 1508641583
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: newNaruto 1_0
+    21300002: newNaruto 1_1
+    21300004: newNaruto 1_2
+    21300006: newNaruto 1_3
+    21300008: newNaruto 1_4
+    21300010: newNaruto 1_5
+    21300012: newNaruto 1_31
+    21300014: newNaruto 1_32
+    21300016: newNaruto 1_33
+    21300018: newNaruto 1_34
+    21300020: newNaruto 1_35
+    21300022: newNaruto 1_36
+    21300024: newNaruto 1_37
+    21300026: newNaruto 1_38
+    21300028: newNaruto 1_39
+    21300030: newNaruto 1_40
+    21300032: newNaruto 1_41
+    21300034: newNaruto 1_55
+    21300036: newNaruto 1_56
+    21300038: newNaruto 1_57
+    21300040: newNaruto 1_58
+    21300042: newNaruto 1_59
+    21300044: newNaruto 1_60
+    21300046: newNaruto 1_61
+    21300048: newNaruto 1_62
+    21300050: newNaruto 1_63
+    21300052: newNaruto 1_64
+    21300054: newNaruto 1_74
+    21300056: newNaruto 1_75
+    21300058: newNaruto 1_76
+    21300060: newNaruto 1_78
+    21300062: newNaruto 1_79
+    21300064: newNaruto 1_80
+    21300066: newNaruto 1_81
+    21300068: newNaruto 1_93
+    21300070: newNaruto 1_94
+    21300072: newNaruto 1_95
+    21300074: newNaruto 1_96
+    21300076: newNaruto 1_97
+    21300078: newNaruto 1_98
+    21300080: newNaruto 1_99
+    21300082: newNaruto 1_100
+    21300084: newNaruto 1_101
+    21300086: newNaruto 1_102
+    21300088: newNaruto 1_103
+    21300090: newNaruto 1_104
+    21300092: newNaruto 1_105
+    21300094: newNaruto 1_106
+    21300096: newNaruto 1_107
+    21300098: newNaruto 1_108
+    21300100: newNaruto 1_109
+    21300102: newNaruto 1_110
+    21300104: newNaruto 1_111
+    21300106: newNaruto 1_112
+    21300108: newNaruto 1_113
+    21300110: newNaruto 1_114
+    21300112: newNaruto 1_115
+    21300114: newNaruto 1_116
+    21300116: newNaruto 1_117
+    21300118: newNaruto 1_118
+    21300120: newNaruto 1_119
+    21300122: newNaruto 1_120
+    21300124: newNaruto 1_121
+    21300126: newNaruto 1_122
+    21300128: newNaruto 1_123
+    21300130: newNaruto 1_124
+    21300132: newNaruto 1_125
+    21300134: newNaruto 1_126
+    21300136: newNaruto 1_127
+    21300138: newNaruto 1_128
+    21300140: newNaruto 1_129
+    21300142: newNaruto 1_130
+    21300144: newNaruto 1_131
+    21300146: newNaruto 1_132
+    21300148: newNaruto 1_134
+    21300150: newNaruto 1_135
+    21300152: newNaruto 1_136
+    21300154: newNaruto 1_137
+    21300156: newNaruto 1_138
+    21300158: newNaruto 1_139
+    21300160: newNaruto 1_140
+    21300162: newNaruto 1_141
+    21300164: newNaruto 1_142
+    21300166: newNaruto 1_143
+    21300168: newNaruto 1_144
+    21300170: newNaruto 1_6
+    21300172: newNaruto 1_7
+    21300174: newNaruto 1_8
+    21300176: newNaruto 1_9
+    21300178: newNaruto 1_10
+    21300180: newNaruto 1_11
+    21300182: newNaruto 1_12
+    21300184: newNaruto 1_13
+    21300186: newNaruto 1_14
+    21300188: newNaruto 1_15
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: newNaruto 1_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 677
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 677
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 676
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 677
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 675
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 683
+        width: 45
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5253133, y: 0.5283367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 646
+        width: 60
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5050517, y: 0.5858243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_32
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 646
+        width: 60
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5463633, y: 0.5996064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_33
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 646
+        width: 60
+        height: 62
+      alignment: 9
+      pivot: {x: 0.48162028, y: 0.5853852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_34
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 646
+        width: 60
+        height: 62
+      alignment: 9
+      pivot: {x: 0.49494934, y: 0.5879743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 594
+        width: 48
+        height: 62
+      alignment: 9
+      pivot: {x: 0.47181034, y: 0.5801342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 594
+        width: 78
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2747341, y: 0.62118024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 594
+        width: 78
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2747341, y: 0.6211802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_38
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 594
+        width: 53
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4259989, y: 0.5766039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_39
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 594
+        width: 81
+        height: 60
+      alignment: 9
+      pivot: {x: 0.24705449, y: 0.62326556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_40
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 594
+        width: 78
+        height: 60
+      alignment: 9
+      pivot: {x: 0.24327518, y: 0.61885476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_41
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 594
+        width: 47
+        height: 67
+      alignment: 9
+      pivot: {x: 0.47804162, y: 0.5359415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_55
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 521
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_56
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 521
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_57
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 535
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_58
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 535
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_59
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 544
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_60
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 544
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_61
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 515
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_62
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 515
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_63
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 403
+        width: 75
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_64
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 415
+        width: 78
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_74
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 388
+        width: 89
+        height: 93
+      alignment: 9
+      pivot: {x: 0.731027, y: 0.40833044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_75
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 390
+        width: 84
+        height: 90
+      alignment: 9
+      pivot: {x: 0.713857, y: 0.40178528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_76
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 388
+        width: 87
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6311, y: 0.44031933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_78
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 390
+        width: 65
+        height: 57
+      alignment: 9
+      pivot: {x: 0.39198703, y: 0.6143783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_79
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 390
+        width: 90
+        height: 74
+      alignment: 9
+      pivot: {x: 0.695027, y: 0.46950635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_80
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 403
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_81
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 425
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_93
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 287
+        width: 126
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5812141, y: 0.41922724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_94
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 271
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_95
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 271
+        width: 41
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_96
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 271
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_97
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 287
+        width: 126
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5812141, y: 0.4192272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_98
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 286
+        width: 77
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5286786, y: 0.5819205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_99
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 286
+        width: 77
+        height: 61
+      alignment: 9
+      pivot: {x: 0.61758304, y: 0.5796429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_100
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 288
+        width: 65
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4218609, y: 0.6180288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_101
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 215
+        width: 12
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_102
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 222
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_103
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 229
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_104
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 222
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_105
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 226
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_106
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 232
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_107
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 162
+        width: 96
+        height: 66
+      alignment: 9
+      pivot: {x: 0.51754636, y: 0.5582955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_108
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 162
+        width: 94
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5530352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_109
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 162
+        width: 94
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5530352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_110
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 162
+        width: 94
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5530352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_123
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 75
+        width: 88
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.5608285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_124
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 75
+        width: 88
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_126
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 75
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_127
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 75
+        width: 58
+        height: 61
+      alignment: 9
+      pivot: {x: 0.3480035, y: 0.61409724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_128
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 75
+        width: 81
+        height: 60
+      alignment: 9
+      pivot: {x: 0.26165584, y: 0.66627556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_129
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 75
+        width: 81
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2616558, y: 0.6662756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_130
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 75
+        width: 81
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2616558, y: 0.6662756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_131
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 62
+        width: 121
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_132
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_134
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 7
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_135
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 9
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_136
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 6
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_138
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 13
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_139
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 13
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_140
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 13
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_6
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 425
+        width: 10
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5312334, y: 0.5000028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_7
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 425
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 412
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 462
+        width: 104
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_10
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 180
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_11
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 180
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_12
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 180
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 12
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_14
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 13
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newNaruto 1_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
