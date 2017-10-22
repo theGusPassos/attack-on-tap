@@ -23,6 +23,8 @@ namespace AttackOnTap.Controllers
         private Vector3 velocity;
         private float velocityXSmoothing;
 
+        private Animator animator;
+
         public override void Start()
         {
             base.Start();
@@ -30,6 +32,8 @@ namespace AttackOnTap.Controllers
             gravity = -(2 * maxJumpHeight / Mathf.Pow(timeToJumpApex, 2));
             maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
             minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
+
+            animator = GetComponent<Animator>();
         }
 
         public void Update()
@@ -37,6 +41,8 @@ namespace AttackOnTap.Controllers
             CalculateVelocity();
 
             Move(velocity * Time.deltaTime, directionalInput);
+            
+            animator.SetFloat("speed", Mathf.Abs(directionalInput.x));
 
             if (collisions.above || collisions.below)
             {

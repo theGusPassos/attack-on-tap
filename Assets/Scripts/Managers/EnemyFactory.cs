@@ -108,14 +108,14 @@ namespace AttackOnTap.Managers
         {
             if (!shownText)
             {
+                CharactersManager.NotifyVictoryToChar();
+
                 battleText.SetBattleText("Victory");
                 shownText = true;
             }
 
             if (timer >= timeToStartRound)
             {
-                CharactersManager.NotifyVictoryToChar();
-
                 shownText = false;
                 timer = 0;
                 currentStage++;

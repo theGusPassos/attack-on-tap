@@ -1,4 +1,5 @@
 ﻿using AttackOnTap.Characters;
+using System.Collections;
 using UnityEngine;
 
 namespace AttackOnTap.Managers
@@ -40,6 +41,18 @@ namespace AttackOnTap.Managers
         {
             canMove = false;
             mainCharacter.obj.GetComponent<IPlayableCharacter>().Celebrate();
+        }
+
+        public static IEnumerator FadeCharacter(SpriteRenderer renderer)
+        {
+            while (renderer.color.a != 0)
+            {
+                renderer.color -= new Color(0, 0, 0, 5) * Time.deltaTime;
+                yield return new WaitForSeconds(0.1f);
+            }
+
+            Destroy(renderer.gameObject);
+            yield return 0;
         }
     }
 }
