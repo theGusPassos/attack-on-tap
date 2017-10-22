@@ -22,12 +22,6 @@ namespace AttackOnTap.Battle
             currentHealthPoints = maxHealthPoints;
         }
 
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.B))
-                DealDamage(10);
-        }
-
         public void DealDamage(float atack)
         {
             ShowHealthBar();

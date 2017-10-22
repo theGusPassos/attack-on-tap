@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using AttackOnTap.Managers;
+using System.Collections;
+using UnityEngine;
 
 namespace AttackOnTap.Characters.PlayableCharacters
 {
@@ -17,6 +19,25 @@ namespace AttackOnTap.Characters.PlayableCharacters
             animator = GetComponent<Animator>();
         }
 
+        public void Celebrate()
+        {
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
+                animator.Play("celebrate"); 
+            else
+                StartCoroutine("CelebrateInTime");
+        }
+
+        private IEnumerator CelebrateInTime()
+        {
+            while (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
+            {
+                yield return new WaitForSeconds(0.1f);
+            }
+
+            animator.Play("celebrate");
+            yield return 0;
+        }
+
         public void Die()
         {
             print("sasukeeeee");
@@ -24,20 +45,23 @@ namespace AttackOnTap.Characters.PlayableCharacters
 
         public void BasicAttack()
         {
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
-                animator.Play("punching");
+            if (CharactersManager.canMove)
+                if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
+                    animator.Play("punching");
         }
 
         public void RangedAttack()
         {
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
-                animator.Play("rangedAttack");
+            if (CharactersManager.canMove)
+                if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
+                    animator.Play("rangedAttack");
         }
 
         public void SpecialAttack()
         {
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
-                animator.Play("specialAttack");
+            if (CharactersManager.canMove)
+                if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
+                    animator.Play("specialAttack");
         }
 
         public void SummonKageBunshin()

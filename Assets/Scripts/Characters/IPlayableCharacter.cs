@@ -5,5 +5,7 @@
         void BasicAttack();
         void RangedAttack();
         void SpecialAttack();
+
+        void Celebrate();
     }
 }

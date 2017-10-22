@@ -7,7 +7,7 @@ namespace AttackOnTap.Characters.Enemies
     {
         public void Die()
         {
-            print ("basic enemy is dead");
+
         }
     }
 }

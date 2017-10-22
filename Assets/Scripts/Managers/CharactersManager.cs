@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+﻿using AttackOnTap.Characters;
+using UnityEngine;
 
 namespace AttackOnTap.Managers
 {
     public class CharactersManager : MonoBehaviour
     {
+        public static bool canMove = true;
         public static CharactersManager Instance { get; set; }
 
         [SerializeField]
@@ -32,6 +34,12 @@ namespace AttackOnTap.Managers
             mainCharacter.obj = Instantiate(mainCharacter.obj, characterPos.position, Quaternion.identity);
 
             mainCharacter.obj.name = mainCharacter.name;
+        }
+
+        public static void NotifyVictoryToChar()
+        {
+            canMove = false;
+            mainCharacter.obj.GetComponent<IPlayableCharacter>().Celebrate();
         }
     }
 }

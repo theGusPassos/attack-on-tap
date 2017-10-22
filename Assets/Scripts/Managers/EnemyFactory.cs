@@ -31,6 +31,8 @@ namespace AttackOnTap.Managers
 
         private void InitNewPhase()
         {
+            CharactersManager.canMove = true;
+
             stage = stages[currentStage];
 
             nextMinionTime = 0;
@@ -110,8 +112,10 @@ namespace AttackOnTap.Managers
                 shownText = true;
             }
 
-            if (timer >= 1.5f)
+            if (timer >= timeToStartRound)
             {
+                CharactersManager.NotifyVictoryToChar();
+
                 shownText = false;
                 timer = 0;
                 currentStage++;
