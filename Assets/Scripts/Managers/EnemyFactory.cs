@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using AttackOnTap.UI;
 using UnityEngine;
 
 namespace AttackOnTap.Managers
@@ -13,16 +12,25 @@ namespace AttackOnTap.Managers
 
         private StagePhase phase;
 
+        public BattleText battleText;
+        private bool shownText = false;
+
         public float    timeToStartRound;
         public int      currentStageStartAt;
         private int     currentStage;
 
         private float timer = 0;
+        private int minionsSpawned = 0;
         private float nextMinionTime;
 
         private void Start()
         {
             currentStage = currentStageStartAt;
+            InitNewPhase();
+        }
+
+        private void InitNewPhase()
+        {
             stage = stages[currentStage];
 
             nextMinionTime = 0;
@@ -47,12 +55,24 @@ namespace AttackOnTap.Managers
             {
                 BossPhase();
             }
+
+            if (phase == StagePhase.ENDING)
+            {
+                EndPhase();
+            }
         }
 
         private void StartingPhase()
         {
+            if (!shownText)
+            {
+                battleText.SetBattleText("Round " + currentStage);
+                shownText = true;
+            }
+
             if (timer > timeToStartRound)
             {
+                shownText = false;
                 phase = StagePhase.SPAWNING;
             }
         }
@@ -61,24 +81,42 @@ namespace AttackOnTap.Managers
         {
             if (timer > stage.timeSummoningMinions)
             {
-                Instantiate(stage.boss, enemySpawn.position, Quaternion.identity);
+                //Instantiate(stage.boss, enemySpawn.position, Quaternion.identity);
 
+                minionsSpawned = 0;
                 timer = 0;
                 phase = StagePhase.BOSS;
             }
 
-            if (timer > nextMinionTime)
+            if (timer > nextMinionTime * minionsSpawned)
             {
                 Instantiate(GetRandomMinion(), enemySpawn.position, Quaternion.identity);
 
-                timer = 0;
+                minionsSpawned++;
                 nextMinionTime = GetNextMinionTime();
             }
         }
 
         private void BossPhase()
         {
+            phase = StagePhase.ENDING;
+        }
 
+        private void EndPhase()
+        {
+            if (!shownText)
+            {
+                battleText.SetBattleText("Victory");
+                shownText = true;
+            }
+
+            if (timer >= 1.5f)
+            {
+                shownText = false;
+                timer = 0;
+                currentStage++;
+                InitNewPhase();
+            }
         }
 
         private float GetNextMinionTime()
@@ -100,7 +138,8 @@ namespace AttackOnTap.Managers
         {
             STARTING,
             SPAWNING,
-            BOSS
+            BOSS,
+            ENDING
         }
     }
 
