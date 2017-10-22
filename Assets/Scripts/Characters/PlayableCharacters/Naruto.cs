@@ -37,10 +37,11 @@ namespace AttackOnTap.Characters.PlayableCharacters
             animator.Play("celebrate");
             yield return 0;
         }
-
+        
         public void Die()
         {
-            print("sasukeeeee");
+            CharactersManager.canMove = false;
+            animator.Play("die");
         }
 
         public void BasicAttack()
