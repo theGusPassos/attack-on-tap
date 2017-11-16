@@ -14,15 +14,23 @@ namespace AttackOnTap.Characters.PlayableCharacters
         public GameObject bijuuDamaCharger;
         public GameObject bijuuDama;
 
+        private bool dead = false;
+
+        private string toCelebrate;
+
+        public AudioClip dieSound;
+
         private void Awake()
         {
             animator = GetComponent<Animator>();
         }
 
-        public void Celebrate()
+        public void Celebrate(int type)
         {
+            toCelebrate = (type == 0) ? "celebrate" : "celebrateForEver"; 
+
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
-                animator.Play("celebrate"); 
+                animator.Play(toCelebrate); 
             else
                 StartCoroutine("CelebrateInTime");
         }
@@ -34,14 +42,19 @@ namespace AttackOnTap.Characters.PlayableCharacters
                 yield return new WaitForSeconds(0.1f);
             }
 
-            animator.Play("celebrate");
+            animator.Play(toCelebrate);
             yield return 0;
         }
         
         public void Die()
         {
-            CharactersManager.canMove = false;
-            animator.Play("die");
+            if (!dead)
+            {
+                SoundManager.Instance.PlaySoundEffect(dieSound);
+                CharactersManager.canMove = false;
+                animator.Play("die");
+                dead = true;
+            }
         }
 
         public void BasicAttack()

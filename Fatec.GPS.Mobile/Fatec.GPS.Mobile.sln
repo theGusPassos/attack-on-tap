@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{578536A1-69DA-0012-E903-95A34DE2DE0D}") = "Fatec.GPS.Mobile", "Assembly-CSharp.csproj", "{F7F6E106-D6E1-A590-0406-7FEEACEA42FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7F6E106-D6E1-A590-0406-7FEEACEA42FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F6E106-D6E1-A590-0406-7FEEACEA42FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F6E106-D6E1-A590-0406-7FEEACEA42FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F6E106-D6E1-A590-0406-7FEEACEA42FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

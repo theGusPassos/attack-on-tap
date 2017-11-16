@@ -27,7 +27,7 @@ namespace AttackOnTap.Battle.Setters
             SetCharacterHealthBar(character.obj.GetComponent<HealthPointSystem>());
         }
 
-        private void SetCharacterImage(Sprite face)
+        public void SetCharacterImage(Sprite face)
         {
             characterFace.sprite = face;
         }

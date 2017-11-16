@@ -1,0 +1,1509 @@
+fileFormatVersion: 2
+guid: c980ebdf328ef5b41af5a9727dfe55eb
+timeCreated: 1509813937
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sasukeClean_0
+    21300002: sasukeClean_1
+    21300004: sasukeClean_2
+    21300006: sasukeClean_3
+    21300008: sasukeClean_4
+    21300010: sasukeClean_5
+    21300012: sasukeClean_6
+    21300014: sasukeClean_7
+    21300016: sasukeClean_8
+    21300018: sasukeClean_9
+    21300020: sasukeClean_10
+    21300022: sasukeClean_11
+    21300024: sasukeClean_12
+    21300026: sasukeClean_13
+    21300028: sasukeClean_16
+    21300030: sasukeClean_18
+    21300032: sasukeClean_22
+    21300034: sasukeClean_23
+    21300036: sasukeClean_24
+    21300038: sasukeClean_25
+    21300040: sasukeClean_26
+    21300042: sasukeClean_28
+    21300044: sasukeClean_30
+    21300046: sasukeClean_31
+    21300048: sasukeClean_32
+    21300050: sasukeClean_33
+    21300052: sasukeClean_34
+    21300054: sasukeClean_35
+    21300056: sasukeClean_39
+    21300058: sasukeClean_40
+    21300060: sasukeClean_41
+    21300062: sasukeClean_42
+    21300064: sasukeClean_43
+    21300066: sasukeClean_44
+    21300068: sasukeClean_45
+    21300070: sasukeClean_46
+    21300072: sasukeClean_47
+    21300074: sasukeClean_48
+    21300076: sasukeClean_49
+    21300078: sasukeClean_50
+    21300080: sasukeClean_51
+    21300082: sasukeClean_52
+    21300084: sasukeClean_53
+    21300086: sasukeClean_54
+    21300088: sasukeClean_55
+    21300090: sasukeClean_56
+    21300092: sasukeClean_57
+    21300094: sasukeClean_58
+    21300096: sasukeClean_59
+    21300098: sasukeClean_60
+    21300100: sasukeClean_61
+    21300102: sasukeClean_62
+    21300104: sasukeClean_63
+    21300106: sasukeClean_64
+    21300108: sasukeClean_65
+    21300110: sasukeClean_66
+    21300112: sasukeClean_67
+    21300114: sasukeClean_68
+    21300116: sasukeClean_69
+    21300118: sasukeClean_70
+    21300120: sasukeClean_71
+    21300122: sasukeClean_72
+    21300124: sasukeClean_73
+    21300126: sasukeClean_74
+    21300128: sasukeClean_75
+    21300130: sasukeClean_76
+    21300132: sasukeClean_77
+    21300134: sasukeClean_78
+    21300136: sasukeClean_79
+    21300138: sasukeClean_80
+    21300140: sasukeClean_81
+    21300142: sasukeClean_82
+    21300144: sasukeClean_83
+    21300146: sasukeClean_84
+    21300148: sasukeClean_85
+    21300150: sasukeClean_86
+    21300152: sasukeClean_87
+    21300154: sasukeClean_88
+    21300156: sasukeClean_89
+    21300158: sasukeClean_90
+    21300160: sasukeClean_91
+    21300162: sasukeClean_92
+    21300164: sasukeClean_93
+    21300166: sasukeClean_94
+    21300168: sasukeClean_95
+    21300170: sasukeClean_96
+    21300172: sasukeClean_97
+    21300174: sasukeClean_98
+    21300176: sasukeClean_99
+    21300178: sasukeClean_100
+    21300180: sasukeClean_101
+    21300182: sasukeClean_102
+    21300184: sasukeClean_103
+    21300186: sasukeClean_104
+    21300188: sasukeClean_105
+    21300190: sasukeClean_106
+    21300192: sasukeClean_107
+    21300194: sasukeClean_108
+    21300196: sasukeClean_109
+    21300198: sasukeClean_110
+    21300200: sasukeClean_111
+    21300202: sasukeClean_112
+    21300204: sasukeClean_113
+    21300206: sasukeClean_114
+    21300208: sasukeClean_115
+    21300210: sasukeClean_116
+    21300212: sasukeClean_117
+    21300214: sasukeClean_118
+    21300216: sasukeClean_119
+    21300218: sasukeClean_120
+    21300220: sasukeClean_121
+    21300222: sasukeClean_122
+    21300224: sasukeClean_123
+    21300226: sasukeClean_124
+    21300228: sasukeClean_125
+    21300230: sasukeClean_126
+    21300232: sasukeClean_127
+    21300234: sasukeClean_128
+    21300236: sasukeClean_129
+    21300238: sasukeClean_130
+    21300240: sasukeClean_131
+    21300242: sasukeClean_132
+    21300244: sasukeClean_133
+    21300246: sasukeClean_134
+    21300248: sasukeClean_135
+    21300250: sasukeClean_136
+    21300252: sasukeClean_137
+    21300254: sasukeClean_138
+    21300256: sasukeClean_139
+    21300258: sasukeClean_140
+    21300260: sasukeClean_141
+    21300262: sasukeClean_142
+    21300264: sasukeClean_143
+    21300266: sasukeClean_144
+    21300268: sasukeClean_145
+    21300270: sasukeClean_146
+    21300272: sasukeClean_147
+    21300274: sasukeClean_148
+    21300276: sasukeClean_149
+    21300278: sasukeClean_150
+    21300280: sasukeClean_151
+    21300282: sasukeClean_152
+    21300284: sasukeClean_153
+    21300286: sasukeClean_154
+    21300288: sasukeClean_155
+    21300290: sasukeClean_156
+    21300292: sasukeClean_157
+    21300294: sasukeClean_158
+    21300296: sasukeClean_159
+    21300298: sasukeClean_160
+    21300300: sasukeClean_161
+    21300302: sasukeClean_162
+    21300304: sasukeClean_163
+    21300306: sasukeClean_164
+    21300308: sasukeClean_165
+    21300310: sasukeClean_166
+    21300312: sasukeClean_167
+    21300314: sasukeClean_168
+    21300316: sasukeClean_169
+    21300318: sasukeClean_170
+    21300320: sasukeClean_171
+    21300322: sasukeClean_172
+    21300324: sasukeClean_173
+    21300326: sasukeClean_174
+    21300328: sasukeClean_175
+    21300330: sasukeClean_176
+    21300332: sasukeClean_177
+    21300334: sasukeClean_14
+    21300336: sasukeClean_15
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 7
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sasukeClean_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1336
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1336
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1336
+        width: 29
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1336
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1231
+        width: 28
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4945577, y: 0.59400713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1231
+        width: 39
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5972459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1230
+        width: 45
+        height: 48
+      alignment: 9
+      pivot: {x: 0.41874152, y: 0.5952225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1231
+        width: 43
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4645652, y: 0.5972459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1230
+        width: 50
+        height: 47
+      alignment: 9
+      pivot: {x: 0.44515014, y: 0.6166966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1231
+        width: 51
+        height: 47
+      alignment: 9
+      pivot: {x: 0.45817477, y: 0.59076315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1230
+        width: 47
+        height: 48
+      alignment: 9
+      pivot: {x: 0.44164908, y: 0.5983963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_11
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1231
+        width: 53
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4367549, y: 0.5875166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_12
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1229
+        width: 52
+        height: 48
+      alignment: 9
+      pivot: {x: 0.48636216, y: 0.61575824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_13
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1226
+        width: 70
+        height: 52
+      alignment: 9
+      pivot: {x: 0.48900756, y: 0.63563186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_16
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1227
+        width: 81
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.59677875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_18
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1226
+        width: 46
+        height: 52
+      alignment: 9
+      pivot: {x: 0.26861307, y: 0.63563186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_22
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1143
+        width: 49
+        height: 51
+      alignment: 9
+      pivot: {x: 0.30527356, y: 0.5306157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_23
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1143
+        width: 43
+        height: 51
+      alignment: 9
+      pivot: {x: 0.270033, y: 0.5442182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_24
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1143
+        width: 42
+        height: 54
+      alignment: 9
+      pivot: {x: 0.23219153, y: 0.50353324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_25
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1143
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.25615463, y: 0.49653542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_26
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1143
+        width: 48
+        height: 56
+      alignment: 9
+      pivot: {x: 0.34113184, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_28
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1143
+        width: 52
+        height: 56
+      alignment: 9
+      pivot: {x: 0.41567758, y: 0.4863848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_30
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1143
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_31
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1143
+        width: 50
+        height: 51
+      alignment: 9
+      pivot: {x: 0.39159057, y: 0.53896916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 76
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1140
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_34
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1140
+        width: 83
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_35
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1140
+        width: 75
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_39
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1048
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1047
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_41
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1047
+        width: 74
+        height: 56
+      alignment: 9
+      pivot: {x: 0.50467765, y: 0.51854163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_42
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1048
+        width: 74
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5280644, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1047
+        width: 76
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5182174, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_44
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1047
+        width: 75
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5276904, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_45
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1046
+        width: 70
+        height: 57
+      alignment: 9
+      pivot: {x: 0.50494426, y: 0.53036124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_46
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1048
+        width: 58
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4641934, y: 0.3862037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_48
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1048
+        width: 68
+        height: 69
+      alignment: 9
+      pivot: {x: 0.39819786, y: 0.41973612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_49
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 890
+        width: 201
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5327418, y: 0.21168086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_50
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 891
+        width: 212
+        height: 117
+      alignment: 9
+      pivot: {x: 0.4825707, y: 0.25050238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_53
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 887
+        width: 203
+        height: 129
+      alignment: 9
+      pivot: {x: 0.48239902, y: 0.21355917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_59
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 889
+        width: 189
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24570584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_86
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 753
+        width: 178
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5231751, y: 0.21618652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_88
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 751
+        width: 146
+        height: 101
+      alignment: 9
+      pivot: {x: 0.4817881, y: 0.28061548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_91
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 752
+        width: 58
+        height: 71
+      alignment: 9
+      pivot: {x: 0.45409262, y: 0.4083252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_97
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 753
+        width: 39
+        height: 54
+      alignment: 9
+      pivot: {x: 0.44689864, y: 0.53287196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_98
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 752
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_99
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 752
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_100
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 752
+        width: 49
+        height: 68
+      alignment: 9
+      pivot: {x: 0.41547003, y: 0.4129827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_101
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 752
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_102
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 752
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_103
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 752
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_110
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_111
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_112
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_113
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_114
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_115
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_116
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_117
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_118
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_119
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_120
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_121
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 646
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_122
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 538
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_123
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 538
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_124
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 538
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_125
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 538
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_126
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 538
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_127
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 538
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_128
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 538
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_129
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 538
+        width: 32
+        height: 55
+      alignment: 9
+      pivot: {x: 0.44099998, y: 0.5147117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_130
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 538
+        width: 34
+        height: 55
+      alignment: 9
+      pivot: {x: 0.41274038, y: 0.50980777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_131
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 450
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_132
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 451
+        width: 42
+        height: 18
+      alignment: 9
+      pivot: {x: 0.49246797, y: 0.37699044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_134
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 447
+        width: 130
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_136
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 450
+        width: 53
+        height: 8
+      alignment: 9
+      pivot: {x: 0.49637732, y: 0.8839798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_137
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 447
+        width: 84
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_138
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 448
+        width: 124
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_140
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 326
+        width: 88
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4999993, y: 0.120594546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_141
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 327
+        width: 73
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5102999, y: 0.12092461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_142
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 324
+        width: 81
+        height: 111
+      alignment: 9
+      pivot: {x: 0.49071664, y: 0.107109}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_144
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 329
+        width: 65
+        height: 60
+      alignment: 9
+      pivot: {x: 0.49999905, y: 0.17916362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_146
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 331
+        width: 70
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5045829, y: 0.2504598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_149
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 331
+        width: 170
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_152
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 173
+        width: 93
+        height: 107
+      alignment: 9
+      pivot: {x: 0.49196437, y: 0.14380695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_153
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 174
+        width: 93
+        height: 107
+      alignment: 9
+      pivot: {x: 0.49196437, y: 0.108886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_154
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 176
+        width: 93
+        height: 110
+      alignment: 9
+      pivot: {x: 0.51580054, y: 0.12741907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_155
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 175
+        width: 83
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5194555, y: 0.1550182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 93
+        height: 104
+      alignment: 9
+      pivot: {x: 0.491915, y: 0.11681454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_160
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 173
+        width: 93
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5161699, y: 0.11681395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_173
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 179
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_175
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_176
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_177
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_15
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 172
+        width: 88
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5121626, y: 0.12310446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

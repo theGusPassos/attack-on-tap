@@ -13,7 +13,6 @@ namespace AttackOnTap.Camera
             _camera = GetComponent<UnityEngine.Camera>();
 
             _camera.orthographicSize = Screen.height / 2f /pixelsPerUnit;
-            print(_camera.orthographicSize );
         }
     }
 }

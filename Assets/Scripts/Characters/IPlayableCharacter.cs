@@ -6,6 +6,6 @@
         void RangedAttack();
         void SpecialAttack();
 
-        void Celebrate();
+        void Celebrate(int type);
     }
 }

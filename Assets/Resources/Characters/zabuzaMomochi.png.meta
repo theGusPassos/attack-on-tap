@@ -1,0 +1,700 @@
+fileFormatVersion: 2
+guid: 7ec194da02ef9e5408f3f9b296cc7ef4
+timeCreated: 1508693913
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: zabuzaMomochi_0
+    21300002: zabuzaMomochi_1
+    21300004: zabuzaMomochi_2
+    21300006: zabuzaMomochi_3
+    21300008: zabuzaMomochi_4
+    21300010: zabuzaMomochi_5
+    21300012: zabuzaMomochi_6
+    21300014: zabuzaMomochi_7
+    21300016: zabuzaMomochi_8
+    21300018: zabuzaMomochi_9
+    21300020: zabuzaMomochi_10
+    21300022: zabuzaMomochi_11
+    21300024: zabuzaMomochi_12
+    21300026: zabuzaMomochi_13
+    21300028: zabuzaMomochi_14
+    21300030: zabuzaMomochi_15
+    21300032: zabuzaMomochi_16
+    21300034: zabuzaMomochi_17
+    21300036: zabuzaMomochi_18
+    21300038: zabuzaMomochi_19
+    21300040: zabuzaMomochi_20
+    21300042: zabuzaMomochi_21
+    21300044: zabuzaMomochi_22
+    21300046: zabuzaMomochi_23
+    21300048: zabuzaMomochi_24
+    21300050: zabuzaMomochi_25
+    21300052: zabuzaMomochi_26
+    21300054: zabuzaMomochi_27
+    21300056: zabuzaMomochi_28
+    21300058: zabuzaMomochi_29
+    21300060: zabuzaMomochi_30
+    21300062: zabuzaMomochi_31
+    21300064: zabuzaMomochi_32
+    21300066: zabuzaMomochi_33
+    21300068: zabuzaMomochi_34
+    21300070: zabuzaMomochi_35
+    21300072: zabuzaMomochi_36
+    21300074: zabuzaMomochi_37
+    21300076: zabuzaMomochi_38
+    21300078: zabuzaMomochi_39
+    21300080: zabuzaMomochi_40
+    21300082: zabuzaMomochi_41
+    21300084: zabuzaMomochi_42
+    21300086: zabuzaMomochi_43
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 5
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zabuzaMomochi_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 905
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 905
+        width: 59
+        height: 54
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.5194891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 905
+        width: 59
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5045417, y: 0.53410536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 905
+        width: 59
+        height: 54
+      alignment: 9
+      pivot: {x: 0.50416696, y: 0.5357577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 905
+        width: 36
+        height: 48
+      alignment: 9
+      pivot: {x: 0.49121687, y: 0.565876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 905
+        width: 37
+        height: 48
+      alignment: 9
+      pivot: {x: 0.50854576, y: 0.57246274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 906
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 906
+        width: 36
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5087831, y: 0.5672776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_8
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 906
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_9
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 906
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_10
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 906
+        width: 39
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4918917, y: 0.5672776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 789
+        width: 63
+        height: 60
+      alignment: 9
+      pivot: {x: 0.29949054, y: 0.44029745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 789
+        width: 51
+        height: 75
+      alignment: 9
+      pivot: {x: 0.32255182, y: 0.35168537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 789
+        width: 88
+        height: 82
+      alignment: 9
+      pivot: {x: 0.18838431, y: 0.32883584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_14
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 789
+        width: 99
+        height: 76
+      alignment: 9
+      pivot: {x: 0.17261852, y: 0.36023912}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_15
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 793
+        width: 87
+        height: 50
+      alignment: 9
+      pivot: {x: 0.18381369, y: 0.54358155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_16
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 789
+        width: 84
+        height: 54
+      alignment: 9
+      pivot: {x: 0.20818728, y: 0.5706154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_17
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 673
+        width: 45
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5055383, y: 0.4387147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 673
+        width: 50
+        height: 55
+      alignment: 9
+      pivot: {x: 0.544861, y: 0.48640692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 673
+        width: 41
+        height: 51
+      alignment: 9
+      pivot: {x: 0.39058405, y: 0.5244332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 673
+        width: 80
+        height: 65
+      alignment: 9
+      pivot: {x: 0.19469833, y: 0.4194815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_21
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 673
+        width: 91
+        height: 104
+      alignment: 9
+      pivot: {x: 0.42605355, y: 0.2531703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_22
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 673
+        width: 78
+        height: 70
+      alignment: 9
+      pivot: {x: 0.6917126, y: 0.38962924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_23
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 673
+        width: 80
+        height: 52
+      alignment: 9
+      pivot: {x: 0.69637716, y: 0.530804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_24
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 673
+        width: 51
+        height: 52
+      alignment: 9
+      pivot: {x: 0.40538833, y: 0.51325756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_25
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 673
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 576
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_27
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 576
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 576
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_29
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 470
+        width: 67
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4734831, y: 0.54834485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 470
+        width: 67
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4734831, y: 0.5483449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 463
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_32
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 464
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_33
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 473
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 476
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_35
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 473
+        width: 75
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_36
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 473
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_38
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 351
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.6701345, y: 0.4254664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_39
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 351
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.6701345, y: 0.4254664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_40
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 351
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.6701345, y: 0.4254664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_41
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 350
+        width: 96
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_42
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 346
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_43
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 346
+        width: 96
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zabuzaMomochi_37
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 351
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.6701345, y: 0.4254664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

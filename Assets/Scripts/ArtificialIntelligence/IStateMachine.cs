@@ -1,5 +1,5 @@
 ﻿
-namespace AttackOnTap.ArtificialIngelligence
+namespace AttackOnTap.ArtificialIntelligence
 {
     public interface IStateMachine
     {

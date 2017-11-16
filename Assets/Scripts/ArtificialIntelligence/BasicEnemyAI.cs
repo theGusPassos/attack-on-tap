@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 
-namespace AttackOnTap.ArtificialIngelligence
+namespace AttackOnTap.ArtificialIntelligence
 {
     public class BasicEnemyAI : MonoBehaviour, IStateMachine
     {
         private Controllers.CharacterController controller;
+        private BasicEnemy basicEnemy;
+
+        public float hitDistance;
 
         private BasicEnemyState state;
 
@@ -16,6 +19,7 @@ namespace AttackOnTap.ArtificialIngelligence
 
         private void Awake()
         {
+            basicEnemy = GetComponent<BasicEnemy>();
             controller = GetComponent<Controllers.CharacterController>();
         }
 
@@ -33,12 +37,23 @@ namespace AttackOnTap.ArtificialIngelligence
 
         private void Run()
         {
+            Debug.DrawRay(transform.position, Vector2.left * hitDistance, Color.green);
+            int layerMask = LayerMask.GetMask("Hero");
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, hitDistance, layerMask);
+
             controller.SetDirectionalInput(new Vector2(-1, 0));
+
+            if (hit.collider != null)
+            {
+                controller.SetDirectionalInput(Vector2.zero);
+
+                state = BasicEnemyState.ATTACKING;
+            }
         }
 
         private void Attack()
         {
-
+            basicEnemy.Attack();
         }
 
         private enum BasicEnemyState

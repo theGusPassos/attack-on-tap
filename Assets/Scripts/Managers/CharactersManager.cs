@@ -37,13 +37,13 @@ namespace AttackOnTap.Managers
             mainCharacter.obj.name = mainCharacter.name;
         }
 
-        public static void NotifyVictoryToChar()
+        public static void NotifyVictoryToChar(int type)
         {
             canMove = false;
-            mainCharacter.obj.GetComponent<IPlayableCharacter>().Celebrate();
+            mainCharacter.obj.GetComponent<IPlayableCharacter>().Celebrate(type);
         }
 
-        public static IEnumerator FadeCharacter(SpriteRenderer renderer)
+        public static IEnumerator FadeCharacter(SpriteRenderer renderer, GameObject toDestroy)
         {
             while (renderer.color.a != 0)
             {
@@ -51,7 +51,7 @@ namespace AttackOnTap.Managers
                 yield return new WaitForSeconds(0.1f);
             }
 
-            Destroy(renderer.gameObject);
+            Destroy(toDestroy);
             yield return 0;
         }
     }

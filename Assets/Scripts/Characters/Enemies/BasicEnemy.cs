@@ -3,7 +3,7 @@ using AttackOnTap.Managers;
 using System.Collections;
 using UnityEngine;
 
-namespace AttackOnTap.ArtificialIngelligence
+namespace AttackOnTap.ArtificialIntelligence
 {
     public class BasicEnemy : MonoBehaviour, ICharacter
     {
@@ -13,11 +13,24 @@ namespace AttackOnTap.ArtificialIngelligence
 
         private SpriteRenderer renderer;
 
+        private string[] attackList = {"kick", "punch"};
+
         private void Awake()
         {
             stateMachine = GetComponent<IStateMachine>();
             animator = GetComponent<Animator>();
             renderer = GetComponent<SpriteRenderer>();
+        }
+
+        public void Attack()
+        {
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+                animator.Play(ChooseAttack());
+        }
+
+        private string ChooseAttack()
+        {
+            return attackList[Random.Range(0, attackList.Length)];
         }
 
         public void Die()
@@ -28,7 +41,8 @@ namespace AttackOnTap.ArtificialIngelligence
                 animator.Play("die");
                 dead = true;
 
-                StartCoroutine(CharactersManager.FadeCharacter(GetComponent<SpriteRenderer>()));
+                Destroy(gameObject, 2);
+                StartCoroutine(CharactersManager.FadeCharacter(GetComponent<SpriteRenderer>(), gameObject));
             }
         }
     }

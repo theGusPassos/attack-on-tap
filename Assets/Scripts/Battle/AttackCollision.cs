@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using AttackOnTap.Managers;
+using UnityEngine;
 
 namespace AttackOnTap.Battle
 {
@@ -27,7 +28,11 @@ namespace AttackOnTap.Battle
 
         public void DealDamage(HealthPointSystem sys)
         {
-            if (sys != null) sys.DealDamage(damage);
+            if (sys != null)
+            {
+                SoundManager.Instance.PunchSound();
+                sys.DealDamage(damage);
+            }
         }
     }
 }

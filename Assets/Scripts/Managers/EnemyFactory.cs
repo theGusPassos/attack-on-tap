@@ -1,10 +1,17 @@
-﻿using AttackOnTap.UI;
+﻿using AttackOnTap.Battle;
+using AttackOnTap.Characters;
+using AttackOnTap.UI;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace AttackOnTap.Managers
 {
     public class EnemyFactory : MonoBehaviour
     {
+        public GameObject bossHealtBar;
+        public Image bossFace;
+
         public StageInfo[] stages;
         private StageInfo stage;
 
@@ -23,8 +30,11 @@ namespace AttackOnTap.Managers
         private int minionsSpawned = 0;
         private float nextMinionTime;
 
+        private List<GameObject> minionsAlive;
+
         private void Start()
         {
+            minionsAlive = new List<GameObject>();
             currentStage = currentStageStartAt;
             InitNewPhase();
         }
@@ -33,10 +43,17 @@ namespace AttackOnTap.Managers
         {
             CharactersManager.canMove = true;
 
-            stage = stages[currentStage];
+            if (currentStage > stages.Length-1)
+            {
+                EndGame();
+            }
+            else
+            {
+                stage = stages[currentStage];
 
-            nextMinionTime = 0;
-            phase = StagePhase.STARTING;
+                nextMinionTime = 0;
+                phase = StagePhase.STARTING;
+            }
         }
 
         private void Update()
@@ -68,7 +85,7 @@ namespace AttackOnTap.Managers
         {
             if (!shownText)
             {
-                battleText.SetBattleText("Round " + currentStage);
+                battleText.SetBattleText("Round " + (currentStage+1));
                 shownText = true;
             }
 
@@ -81,36 +98,69 @@ namespace AttackOnTap.Managers
 
         private void SpawningPhase()
         {
-            if (timer > stage.timeSummoningMinions)
+            if (timer > stage.timeSummoningMinions && !MinionsAlive())
             {
-                //Instantiate(stage.boss, enemySpawn.position, Quaternion.identity);
+                if (stage.boss != null)
+                {
+                    GameObject boss = Instantiate(stage.boss, enemySpawn.position, Quaternion.identity);
+                    SetBossHealthBar(boss);
+                    boss.GetComponent<IBoss>().SetEnemyFactory(this);
 
-                minionsSpawned = 0;
-                timer = 0;
-                phase = StagePhase.BOSS;
+                    minionsSpawned = 0;
+                    timer = 0;
+                    phase = StagePhase.BOSS;
+                }
+                else
+                {
+                    EndPhase();
+                }
             }
-
-            if (timer > nextMinionTime * minionsSpawned)
+            else if (timer < stage.timeSummoningMinions && timer > nextMinionTime * minionsSpawned)
             {
-                Instantiate(GetRandomMinion(), enemySpawn.position, Quaternion.identity);
+                minionsAlive.Add(Instantiate(GetRandomMinion(), enemySpawn.position, Quaternion.identity));
 
                 minionsSpawned++;
                 nextMinionTime = GetNextMinionTime();
             }
         }
 
+        private bool MinionsAlive()
+        {
+            foreach (GameObject minion in minionsAlive)
+            {
+                if (minion != null)
+                    return true;
+            }
+
+            return false;
+        }
+
+        private void SetBossHealthBar(GameObject boss)
+        {
+            bossHealtBar.SetActive(true);
+
+            bossFace.sprite = stage.bossFace;
+
+            boss.GetComponent<HealthPointSystem>()
+                .SetHealthBar(bossHealtBar.GetComponent<HealthBar>());
+        }
+
         private void BossPhase()
         {
-            phase = StagePhase.ENDING;
+            
         }
 
         private void EndPhase()
         {
             if (!shownText)
             {
-                CharactersManager.NotifyVictoryToChar();
+                if (currentStage < stages.Length -1)
+                {
+                    CharactersManager.NotifyVictoryToChar(0);
 
-                battleText.SetBattleText("Victory");
+                    battleText.SetBattleText("Victory");
+                }
+
                 shownText = true;
             }
 
@@ -123,6 +173,13 @@ namespace AttackOnTap.Managers
             }
         }
 
+        private void EndGame()
+        {
+            CharactersManager.NotifyVictoryToChar(1);
+
+            battleText.SetBattleText("Nice Work!!!");
+        }
+
         private float GetNextMinionTime()
         {
             return Random.Range(stage.minTimeToSpawnMinion, stage.maxTimeToSpawnMinion);
@@ -133,9 +190,9 @@ namespace AttackOnTap.Managers
             return stage.minions[Random.Range(0, stage.minions.Length)];
         }
 
-        private void NotifyBossDeath()
+        public void NotifyBossDeath()
         {
-
+            EndPhase();
         }
 
         private enum StagePhase
@@ -151,6 +208,7 @@ namespace AttackOnTap.Managers
     public struct StageInfo
     {
         public GameObject boss;
+        public Sprite bossFace;
         public GameObject[] minions;
         public float timeSummoningMinions;
 
