@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c980ebdf328ef5b41af5a9727dfe55eb
-timeCreated: 1509813937
+timeCreated: 1511049248
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -1499,6 +1499,19 @@ TextureImporter:
         height: 115
       alignment: 9
       pivot: {x: 0.5121626, y: 0.12310446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sasukeClean_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 40
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
