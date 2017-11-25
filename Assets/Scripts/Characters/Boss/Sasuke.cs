@@ -1,4 +1,5 @@
-﻿using AttackOnTap.Managers;
+﻿using AttackOnTap.ArtificialIntelligence;
+using AttackOnTap.Managers;
 using UnityEngine;
 
 namespace AttackOnTap.Characters.Boss
@@ -8,10 +9,43 @@ namespace AttackOnTap.Characters.Boss
         private Controllers.CharacterController controller;
         private EnemyFactory factory;
         private Animator animator;
+        private SasukeAI sasuke;
+
+        public AudioClip narutoMad;
+        public AudioClip nande;
+        public AudioClip narutoAndSasuke;
+
+        public AudioClip basicSign;
+        public AudioClip endSign;
+
+        public AudioClip basicChidori;
+        public AudioClip badassChidori;
+
+        public AudioClip amaterasu;
 
         private bool dead = false;
 
         public GameObject amaterasuFlame;
+
+        public void PlayBasicSign()
+        {
+            SoundManager.Instance.PlaySoundEffect(basicSign);
+        }
+
+        public void PlayEndSign()
+        {
+            SoundManager.Instance.PlaySoundEffect(endSign);
+        }
+
+        public void PlayChidori()
+        {
+            SoundManager.Instance.PlaySoundEffect(basicChidori);
+        }
+
+        public void PlayBadassChidori()
+        {
+            SoundManager.Instance.PlaySoundEffect(badassChidori);
+        }
 
         private void Awake()
         {
@@ -24,8 +58,16 @@ namespace AttackOnTap.Characters.Boss
             animator.Play("out");
         }
 
+        private int times = 0;
+
         public void Appear()
         {
+            if (times == 0)
+            {
+                SoundManager.Instance.PlaySoundEffect(narutoMad);
+                times++;
+            }
+
             animator.Play("appear");
         }
 
@@ -36,6 +78,8 @@ namespace AttackOnTap.Characters.Boss
 
         public void ChidoriWalking()
         {
+            SoundManager.Instance.PlaySoundEffect(narutoAndSasuke);
+
             animator.Play("chidoriWalking");
         }
 
@@ -54,16 +98,26 @@ namespace AttackOnTap.Characters.Boss
             animator.Play("handSigns");
         }
 
+        private Vector2 nextTarget;
+
         public void Mangekyou(Vector2 target)
         {
-            Instantiate(amaterasuFlame, target - new Vector2(0, 2), Quaternion.identity);
+            nextTarget = target;
             animator.Play("amaterasuOn");
+        }
+
+        public void CastAmaterasu()
+        {
+            SoundManager.Instance.PlaySoundEffect(amaterasu);
+            Instantiate(amaterasuFlame, nextTarget - new Vector2(0, 2), Quaternion.identity);
         }
 
         public void Die()
         {
             if (!dead)
             {
+                SoundManager.Instance.PlaySoundEffect(nande);
+                sasuke.Stop();
                 factory.NotifyBossDeath();
                 Disappear();
                 dead = false;

@@ -193,11 +193,14 @@ namespace AttackOnTap.ArtificialIntelligence
                 sasuke.Disappear();
                 Stop();
                 sasuke.Die();
+
+                Destroy(gameObject, 1);
             }
         }
 
         public void Stop()
         {
+            Out();
             alive = false;
         }
 

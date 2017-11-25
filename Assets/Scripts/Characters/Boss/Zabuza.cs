@@ -82,6 +82,8 @@ namespace AttackOnTap.Characters.Boss
                 animator.Play("die");
                 factory.NotifyBossDeath();
 
+                Destroy(gameObject, 1);
+
                 dead = true;
             }
         }

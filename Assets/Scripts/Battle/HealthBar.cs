@@ -20,6 +20,13 @@ namespace AttackOnTap.Battle
 
         public void Initialize(float maxValue)
         {
+            childrenImages = GetComponentsInChildren<Image>();
+
+            foreach (Image img in childrenImages)
+                img.color += new Color(0, 0, Mathf.Abs(img.color.a));
+
+            fadingOut = false;
+
             barSlider.maxValue = maxValue;
             barSlider.value = maxValue;
         }
@@ -44,11 +51,14 @@ namespace AttackOnTap.Battle
             {
                 FadeImagesOut();
             }
+            else
+            {
+                FadeImagesIn();
+            }
         }
 
         public void DisableHealthBar()
         {
-            childrenImages = GetComponentsInChildren<Image>();
             fadingOut = true;
         }
 
@@ -57,6 +67,15 @@ namespace AttackOnTap.Battle
             foreach (Image img in childrenImages)
             {
                 img.color -= fadeOutColor * Time.deltaTime;
+            }
+        }
+
+        private void FadeImagesIn()
+        {
+            foreach (Image img in childrenImages)
+            {
+                if (img.color.a < 255)
+                    img.color += fadeOutColor * Time.deltaTime;
             }
         }
     }

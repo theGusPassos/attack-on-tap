@@ -9,6 +9,7 @@ namespace AttackOnTap.Managers
         private AudioSource musicPlayer;
         private AudioSource sfxPlayer;
         private AudioSource punchPlayer;
+        private AudioSource sfxPlayer2;
 
         public float musicTransitionSpeed;
         public float musicAppearanceSpeed;
@@ -35,6 +36,7 @@ namespace AttackOnTap.Managers
             musicPlayer = GetComponents<AudioSource>()[0];
             sfxPlayer = GetComponents<AudioSource>()[1];
             punchPlayer = GetComponents<AudioSource>()[2];
+            sfxPlayer2 = GetComponents<AudioSource>()[3];
         }
 
         private void Update()
@@ -80,7 +82,10 @@ namespace AttackOnTap.Managers
 
         public void PlaySoundEffect(AudioClip clip)
         {
-            sfxPlayer.PlayOneShot(clip);
+            if (sfxPlayer.isPlaying)
+                sfxPlayer2.PlayOneShot(clip);
+            else
+                sfxPlayer.PlayOneShot(clip);
         }
 
         public AudioClip[] punchs;

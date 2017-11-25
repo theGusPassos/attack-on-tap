@@ -4,7 +4,7 @@ namespace AttackOnTap.Camera
 {
     public class CameraSingleton : MonoBehaviour
     {
-        private bool created = false;
+        private static bool created = false;
 
         private void Awake()
         {

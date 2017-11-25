@@ -14,6 +14,8 @@ namespace AttackOnTap.Characters.PlayableCharacters
         public GameObject bijuuDamaCharger;
         public GameObject bijuuDama;
 
+        public AudioClip buttonSound;
+
         private bool dead = false;
 
         private string toCelebrate;
@@ -59,6 +61,8 @@ namespace AttackOnTap.Characters.PlayableCharacters
 
         public void BasicAttack()
         {
+            SoundManager.Instance.PlaySoundEffect(buttonSound);
+
             if (CharactersManager.canMove)
                 if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
                     animator.Play("punching");
@@ -66,6 +70,8 @@ namespace AttackOnTap.Characters.PlayableCharacters
 
         public void RangedAttack()
         {
+            SoundManager.Instance.PlaySoundEffect(buttonSound);
+
             if (CharactersManager.canMove)
                 if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
                     animator.Play("rangedAttack");
@@ -73,6 +79,8 @@ namespace AttackOnTap.Characters.PlayableCharacters
 
         public void SpecialAttack()
         {
+            SoundManager.Instance.PlaySoundEffect(buttonSound);
+
             if (CharactersManager.canMove)
                 if (animator.GetCurrentAnimatorStateInfo(0).IsName("narutoIdle"))
                     animator.Play("specialAttack");
